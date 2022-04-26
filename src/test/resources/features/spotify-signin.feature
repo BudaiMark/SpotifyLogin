@@ -2,7 +2,7 @@ Feature: Spotify sign in page
 
   Background:
     Given the home page is opened
-      And the Cookie disclaimer is closed
+      # And the Cookie disclaimer is closed
       And the Bejelentkezés header button is clicked
 
   @requiredfield
